@@ -24,7 +24,7 @@
 
 <center><h1>"None of those words are in the Bible."</h1></center>
 
-<center><input bind:value={sentence} on:input={e => a()}></center>
+<center><textarea bind:value={sentence} on:input={e => a()}></textarea></center>
 <br>
 <center>Your sentence has {slength} {slength == 1 ? "word" : "words"}. {words_in_bible == 0 ? "None" : words_in_bible} of them {words_in_bible == 1 ? "is" : "are"} in the Bible.</center>
 <center>Your sentence is {slength == 0 ? "???" : words_in_bible/slength*100}% holy.</center>
