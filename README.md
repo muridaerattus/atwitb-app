@@ -4,4 +4,4 @@ Who the hell knows. Inspired by the meme from Twitter, "none of those words are 
 
 ## Installation
 
-`npm install` then `npm run`.
+`npm install` then `npm run dev`.
