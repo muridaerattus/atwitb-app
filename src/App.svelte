@@ -14,10 +14,10 @@
 		words_in_bible = 0;
 		fsentence = sentence.trim().toLowerCase().replace(dashes, ' ').replace(nospchar, '').replace(spaces, ' ').split(' ');
 		slength = fsentence.length;
-		for(let i = 0; i < slength; i++){
+		for(let i = 0; i < fsentence.length; i++){
 			if(fsentence[i] == ""){
-				fsentence.splice(i,1);
-				i--;
+				//fsentence.splice(i,1);
+				//i--;
 				slength--;
 				continue;
 			}
